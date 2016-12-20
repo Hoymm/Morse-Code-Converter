@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- LinearLayout (BUTTONS) -->
+    <style name="linearLayoutButton">
+        <item name="android:tag">inactive</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:weightSum">100</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">30</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/buttonshape</item>
+    </style>
+    <style name="linearLayoutButton_textView">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">75</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#000210</item>
+    </style>
+    <style name="linearLayoutButton_imageView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">20</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- second menu layout 80% height of screen -->
+    <style name="secondMenuLayout">
+        <item name="android:visibility">gone</item>
+        <item name="android:weightSum">100</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">80</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">#e1e1e1</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="secondMenuLayout_textView">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#535353</item>
+    </style>
+    <style name="secondMenuLayout_editText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">80</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+    <style name="secondMenuLayout_spinner">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">30</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+</resources>

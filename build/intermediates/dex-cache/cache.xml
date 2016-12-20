@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hoymm\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="C:\Users\Hoymm\Desktop\My Best Applications\Morse-Code-Converter\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.1_6dd2f4878dacab43262cf59aac6c1087c56db9a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hoymm\Desktop\My Best Applications\Morse-Code-Converter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="C:\Users\Hoymm\Desktop\My Best Applications\Morse-Code-Converter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.1_b897f1f02950b7f9c0d87c561b52f54aeec09bb4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hoymm\Desktop\My Best Applications\Morse-Code-Converter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="C:\Users\Hoymm\Desktop\My Best Applications\Morse-Code-Converter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.1_2f039461f27e970c4c1279dbd8c314dc4f050613\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hoymm\Desktop\My Best Applications\Morse-Code-Converter\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="C:\Users\Hoymm\Desktop\My Best Applications\Morse-Code-Converter\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.1_248e54f8b2568fbb98e9c52b778cc9a4e07c10ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hoymm\Desktop\My Best Applications\Morse-Code-Converter\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="C:\Users\Hoymm\Desktop\My Best Applications\Morse-Code-Converter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.1_cededeb7ad34d11b6c829caa5506bb64682a8d1f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hoymm\Desktop\My Best Applications\Morse-Code-Converter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="C:\Users\Hoymm\Desktop\My Best Applications\Morse-Code-Converter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.1_99b31e8d5d62f0581665704d7405e12c15ba92f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hoymm\Desktop\My Best Applications\Morse-Code-Converter\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a3c057a768df32d34f72c97a59c684ffad89b710">
+        <dex dex="C:\Users\Hoymm\Desktop\My Best Applications\Morse-Code-Converter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9a044f16b1c459d9843bdf937f2a364e3cd6d361\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hoymm\Desktop\My Best Applications\Morse-Code-Converter\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1b3076ee978bd77781b9bd7d2ed68aef2ba8b6e8">
+        <dex dex="C:\Users\Hoymm\Desktop\My Best Applications\Morse-Code-Converter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_147066d37bda0a7551791bd00917f111a41bff53\classes.dex" />
+    </item>
+
+</items>

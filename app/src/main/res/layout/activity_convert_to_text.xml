@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical"
+    tools:context="com.company.hoymm.morsecodeconverter.ConvertToText">
+    <!-- FIRST LINEAR LAYOUT BUTTON - MORSE TEXT CONVERTER -->
+    <LinearLayout
+        android:id="@+id/linear_layout_button_text"
+        style="@style/linearLayoutButton"
+        android:onClick="backToMenuButton"
+        android:layout_weight="20"
+        >
+        <TextView
+            style="@style/linearLayoutButton_textView"
+            android:text="@string/convert_to_text"
+            android:onClick="backToMenuButton"
+            />
+        <ImageView
+            android:id="@+id/linear_layout_button_text_icon"
+            android:src="@drawable/text"
+            style="@style/linearLayoutButton_imageView"
+            android:onClick="backToMenuButton"
+            />
+    </LinearLayout>
+    <!-- ################################### convert to TEXT ################################### -->
+    <LinearLayout
+        android:id="@+id/text_convert_second_menu_linear_layout"
+        style="@style/secondMenuLayout"
+        android:visibility="visible"
+        >
+        <TextView
+            style="@style/secondMenuLayout_textView"
+            android:text="@string/insert_text"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:weightSum="100"
+            android:gravity="left|bottom"
+            >
+            <EditText
+                android:id="@+id/convert_morse_edit_text_input_text"
+                style="@style/secondMenuLayout_editText"
+                android:layout_weight="100"
+                />
+        </LinearLayout>
+        <!--            MORSE CODE OUTPUT       -->
+        <TextView
+            android:id="@+id/convertet_morse_edit_view_output_text"
+            android:padding="8dp"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="100"
+            android:textSize="20sp"
+
+            />
+        <!-- BUTTONS LINEAR-LAYOUT -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <Button
+                android:onClick="backToMenuButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back_to_menu_button"/>
+            <Button
+                android:onClick="convertToTextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/convert_button"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

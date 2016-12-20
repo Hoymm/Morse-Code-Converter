@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tlumacz sygnalu Morse\'a</string>
+    <string name="morse_code_converter">Tlumacz sygnalu Morse\'a</string>
+    <string name="convert_to_text">Przetlumacz na tekst</string>
+    <string name="convert_to_flashlight">Przetlumacz na sygnaly swietlne latarka</string>
+    <string name="convert_to_screen_flickering">Przetlumacz na sygnaly swietlne ekranem</string>
+    <string name="copyright">Created by Damian Muca Hoymm</string>
+    <string name="insert_text">Wprowadz tekst</string>
+    <string name="back_to_menu_button">WROC DO MENU</string>
+    <string name="convert_button">TLUMACZ</string>
+    <string name="your_device_doesnt_support_flashlight">Twoje urzadzenie nie wspiera latarki, przepraszamy.</string>
+    <string name="stop">STOP</string>
+    <string name="convert">TLUMACZ</string>
+    <string name="speed">Szybkosc</string>
+    <string name="i_cannot_use_flashlight">Blad, nie moge uzyc latarki.</string>
+    <string name="camera_permission_explanation">Potrzebuję uprawnień dostepu do kamery, by użyć latarki.</string>
+    <string-array name="spinner_screen_speeds">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="spinner_flashlight_speeds">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+</resources>

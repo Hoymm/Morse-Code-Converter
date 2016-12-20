@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Morse Code Converter</string>
+    <string name="morse_code_converter">Morse Code Converter</string>
+    <string name="convert_to_text">Convert to text</string>
+    <string name="convert_to_flashlight">Convert to flashlight</string>
+    <string name="convert_to_screen_flickering">Convert to screen flickering</string>
+    <string name="copyright">Created by Damian Muca Hoymm</string>
+    <string name="insert_text">Insert text</string>
+    <string name="back_to_menu_button">BACK TO MENU</string>
+    <string name="convert_button">CONVERT</string>
+    <string name="your_device_doesnt_support_flashlight">Your device doesn\'t support flashlight</string>
+    <string name="stop">STOP</string>
+    <string name="convert">CONVERT</string>
+    <string name="speed">Speed</string>
+    <string name="i_cannot_use_flashlight">I cannot use flashlight, it might be used by another program or your device doesn\'t have it.</string>
+    <string name="camera_permission_explanation">I need camera access to use flashlight</string>
+    <string-array name="spinner_screen_speeds">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="spinner_flashlight_speeds">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+</resources>

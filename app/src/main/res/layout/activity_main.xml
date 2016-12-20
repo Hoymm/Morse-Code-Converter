@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.hoymm.muca.damian.morsecodeconverter2.MainActivity">
+
+    <!--HEADING-->
+    <TextView
+        android:id="@+id/morse_converter_top_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/morse_code_converter"
+        android:textColor="#f1f1f1"
+        android:background="#03021b"
+        />
+    <!-- FIRST LINEAR LAYOUT BUTTON - MORSE TEXT CONVERTER -->
+    <LinearLayout
+        android:id="@+id/linear_layout_button_text"
+        style="@style/linearLayoutButton"
+        android:onClick="textConvertClicked"
+        >
+        <TextView
+            style="@style/linearLayoutButton_textView"
+            android:text="@string/convert_to_text"
+            android:onClick="textConvertClicked"
+            />
+        <ImageView
+            android:id="@+id/linear_layout_button_text_icon"
+            android:src="@drawable/text"
+            style="@style/linearLayoutButton_imageView"
+            android:onClick="textConvertClicked"
+            />
+    </LinearLayout>
+    <!-- FIRST LINEAR LAYOUT BUTTON - MORSE FLASHLIGHT CONVERTER -->
+    <LinearLayout
+        android:id="@+id/linear_layout_button_flashlight"
+        style="@style/linearLayoutButton"
+        android:onClick="flashlightConvertClicked"
+        >
+        <TextView
+            style="@style/linearLayoutButton_textView"
+            android:text="@string/convert_to_flashlight"
+            android:onClick="flashlightConvertClicked"
+            />
+        <ImageView
+            android:id="@+id/linear_layout_button_flashlight_icon"
+            android:src="@drawable/flashlight"
+            style="@style/linearLayoutButton_imageView"
+            android:onClick="flashlightConvertClicked"
+            />
+    </LinearLayout>
+    <!-- FIRST LINEAR LAYOUT BUTTON - MORSE SCREEN CONVERTER -->
+    <LinearLayout
+        android:id="@+id/linear_layout_button_screen"
+        style="@style/linearLayoutButton"
+        android:onClick="screenConvertClicked"
+        >
+        <TextView
+            style="@style/linearLayoutButton_textView"
+            android:text="@string/convert_to_screen_flickering"
+            android:onClick="screenConvertClicked"
+            />
+        <ImageView
+            android:id="@+id/linear_layout_button_screen_icon"
+            android:src="@drawable/screen"
+            style="@style/linearLayoutButton_imageView"
+            android:onClick="screenConvertClicked"
+            />
+    </LinearLayout>
+    <!-- FOOTER -->
+    <TextView
+        android:paddingRight="5dp"
+        android:id="@+id/footer_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="end|center"
+        android:textSize="12sp"
+        android:textColor="#535353"
+        android:background="#03021b"
+        />
+
+</LinearLayout>
